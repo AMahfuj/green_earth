@@ -1,0 +1,74 @@
+1.ANS: Differences among var,let and const are given below-
+
+Scope:-
+
+    var → Function-scoped (ignores {} blocks).
+
+    let & const → Block-scoped (stay inside the {} where they are declared).
+
+Re-declaration & Re-assignment:-
+
+    var → Can be redeclared and reassigned.
+
+    let → Can be reassigned, but not redeclared in the same scope.
+
+    const → Cannot be redeclared and cannot be reassigned.
+
+Hoisting:-
+
+    var → Hoisted and initialized with undefined.
+
+    let & const → Hoisted too, but stay in the temporal dead zone (TDZ) until the line where they are defined, so using them before declaration gives an error.
+    -----------
+
+2.ANS:
+
+          1. map():-
+
+      Purpose: Creates a new array by applying a function to each element.
+
+      Return: A new array (same length as the original).
+
+      When to use: When you want to transform data.
+
+
+      2. forEach():-
+
+      Purpose: Runs a function on each element, but does not return anything.
+
+      Return: Always undefined.
+
+      When to use: When you want to perform side effects (like logging, updating DOM, etc.), not create a new array.
+
+      3. filter():-
+
+      Purpose: Creates a new array containing only elements that pass a condition.
+
+      Return: A new array (may be smaller than the original).
+
+      When to use: When you want to select certain items.
+-------------------------
+
+3.ANS-
+      Arrow functions are a shorter syntax for writing functions, introduced in ES6 (ECMAScript 2015). They are especially useful for writing small, inline functions.
+      -------------------------------
+           
+
+4.ANS-
+    Destructuring assignment is a feature in ES6 that lets us unpack values from arrays or properties from objects into separate variables — in a clean and concise way.
+
+    Instead of accessing elements or properties one by one, we can extract them in a single line.
+    --------------------------
+
+5.ANS-
+      Template literals are a new way to work with strings.
+      They are different from string concatenation by backticks (`) instead of quotes (' or ").
+
+      They allow:-
+
+      String interpolation → embed variables & expressions directly.
+
+      Multi-line strings → write strings across multiple lines without \n.
+
+      Expressions & functions → run JavaScript inside strings.
+      ---------------------------
