@@ -6,5 +6,55 @@
     <title>Green Earth</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body></body>
+
+  <body class="bg-gray-50 text-gray-800">
+    <!-- Navbar -->
+    <header class="bg-green-900 text-white">
+      <div
+        class="max-w-7xl mx-auto flex justify-between items-center px-4 py-4"
+      >
+        <div class="text-xl font-bold">Green Earth</div>
+        <ul class="hidden md:flex space-x-8 font-medium">
+          <li><a href="#" class="hover:text-yellow-400">About</a></li>
+          <li><a href="#" class="hover:text-yellow-400">Gallery</a></li>
+          <li><a href="#" class="hover:text-yellow-400">Plant a Tree</a></li>
+        </ul>
+        <a
+          href="#donate"
+          class="hidden md:inline-block bg-yellow-400 text-green-900 px-4 py-2 rounded-full font-semibold"
+        >
+          Plant a Tree
+        </a>
+      </div>
+    </header>
+
+    <!-- Banner -->
+    <section class="bg-green-100 text-center py-16 relative">
+      <img
+        src="./assets/hero-leaf1.png"
+        alt=""
+        class="absolute bottom-0 left-10 w-64 h-48 hidden md:block"
+      />
+      <div>
+        <h2 class="text-3xl md:text-4xl font-bold text-black-900">
+          Plant a Tree, Grow a Future
+        </h2>
+        <p class="text-black-600 mt-2 max-w-xl mx-auto">
+          Join our mission to plant trees and make the planet greener for
+          generations to come.
+        </p>
+        <button
+          class="mt-6 bg-yellow-400 text-green-900 px-6 py-2 rounded-full font-semibold hover:bg-yellow-300"
+        >
+          Get Started
+        </button>
+      </div>
+
+      <img
+        src="./assets/hero-leaf2.png"
+        alt=""
+        class="absolute bottom-0 right-10 w-64 h-48 hidden md:block"
+      />
+    </section>
+  </body>
 </html>
